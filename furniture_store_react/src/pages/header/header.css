@@ -1,0 +1,67 @@
+nav{
+    padding: 3vmin 3vmin 3.5vmin !important; 
+    box-shadow: 0vmin 0vmin 1.5vmin rgb(20, 51, 20);
+    position: fixed !important;
+    top: 0vmin;
+    left: 0vmin;
+    background-color: rgba(255, 255, 255, 0.729);
+    width: 100%;
+    z-index: 200000;
+    /* background-color: rgba(26, 65, 26, 0.172); */
+}
+.icon{
+    /* color: rgb(37, 93, 37); */
+    color: rgba(26, 65, 26, 0.816);
+    font-size: 5vmin;
+    margin-right: 1vmin;
+}
+.title h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4.2vmin;
+    /* color: rgb(37, 93, 37); */
+    color: rgba(26, 65, 26, 0.816);
+    /* font-style: italic; */
+    margin-bottom: 0vmin;
+    line-height: 0vmin;
+}
+.links li{
+    color: black !important;
+    font-size: 2.7vmin;
+    font-weight: 400;
+    margin: 0vmin 1.5vmin;
+}
+.links{
+    margin: 0 10vmin !important;
+}
+.header-icon {
+   /* color: rgb(37, 93, 37); */
+   color: rgba(26, 65, 26, 0.816);
+   font-size: 3vmin; 
+   margin: 0 0 0 2vmin;
+   cursor: pointer;
+   z-index: 300000;
+   transition: 1s;
+}
+.header-icon:hover{
+    color: rgba(37, 93, 37, 0.613);
+    transform: scale(1.1);
+}
+sub{
+    /* color: rgb(37, 93, 37); */
+    color: rgba(26, 65, 26, 0.816);
+    border: 0.26vmin solid rgba(26, 65, 26, 0.816);
+    border-radius: 50%;
+    padding: 1.2vmin 0.6vmin;
+    margin-left: -1vmin;
+    z-index: 300002;
+    margin-bottom: -1vmin;
+    font-size: 2vmin;
+    font-weight: 700;
+}
+.active-link-header{
+    color: rgba(26, 65, 26, 0.816) !important;
+    font-weight: 600 !important;
+}
+nav button{
+    font-size: 3.3vmin !important;
+}

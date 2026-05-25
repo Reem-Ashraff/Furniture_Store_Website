@@ -1,0 +1,37 @@
+.text-div{
+    padding-top: 8vmin;
+    padding-bottom: 8vmin;
+}
+.contact-form .inputs {
+    margin-bottom: 2vmin;
+}
+
+.contact-form .inputs label {
+    font-size: 2.7vmin;
+    margin-bottom: 1.5vmin;
+}
+
+.contact-form .inputs input {
+    font-size: 2.5vmin;
+    padding: 1.2vmin 2vmin;
+    margin-bottom: 1vmin;
+}
+
+.contact-form .submit {
+    font-size: 2.6vmin;
+    padding: 1.3vmin 2.5vmin;
+    /* background-color: rgb(26, 65, 26); */
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0.816), rgba(26, 65, 26, 0.654));
+    border-radius: 0.5vmin;
+    color: white;
+    border: 0.3vmin solid rgba(26, 65, 26, 0.608);
+    margin-top: 1vmin;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.contact-form .submit:hover {
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0), rgba(26, 65, 26, 0));
+    background-color: transparent;
+    color: rgba(26, 65, 26, 0.816);
+}

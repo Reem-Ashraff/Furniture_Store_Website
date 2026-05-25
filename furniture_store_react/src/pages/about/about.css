@@ -1,0 +1,66 @@
+.text-div {
+    padding: 5vmin 3vmin 5vmin 7vmin;
+}
+
+.about-paragraph {
+    font-size: 3.2vmin;
+    letter-spacing: 0.1vmin;
+    line-height: 6vmin;
+}
+.contact-link{
+    text-decoration: none;
+    color: white;
+}
+.contact-div{
+    border: 0.2vmin solid rgba(26, 65, 26, 0.745);
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0.816), rgba(26, 65, 26, 0.654));
+    color: white;
+    padding: 1.5vmin 5vmin;
+    cursor: pointer;
+    width: fit-content;
+    transition: 0.5s;
+}
+.contact-div:hover{
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0), rgba(26, 65, 26, 0));
+    color: rgba(26, 65, 26, 0.816);
+    background-color: transparent;
+}
+
+.img-div {
+    background-image: url(../../assets/background6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-section5 p {
+    color: rgb(26, 65, 26);
+    font-size: 2.7vmin !important;
+    letter-spacing: 0.5vmin;
+}
+
+.home-section5 h2 {
+    color: black;
+    font-size: 5vmin !important;
+    line-height: 2.5vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-section{
+    border-radius: 1vmin;
+}
+
+@media (max-width: 768px) {
+    .text-div {
+        padding: 5vmin 0vmin 5vmin 0vmin;
+    }
+
+    .img-div {
+        height: 30vmin;
+    }
+    .home-section5 .shipping{
+        border-right: none;
+    }
+    .home-section5 .clock{
+        border-right: none;
+    }
+}

@@ -1,0 +1,111 @@
+.details-main{
+    padding-top: 15vmin;
+    padding-bottom: 10vmin;
+}
+.details{
+    margin: 10vmin 11vmin 5vmin;
+    /* box-shadow: 0vmin 0vmin 0.7vmin rgb(26, 65, 26); */
+}
+.details .text{
+    padding: 4vmin 3vmin 4vmin 5vmin;
+    border-left: 0.1vmin solid rgb(26, 65, 26);
+}
+.details .text h2{
+    font-size: 8vmin;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(26, 65, 26, 0.886);
+    margin-bottom: 4vmin;
+    line-height: 9vmin;
+}
+.details .text .stock{
+    color: black;
+    font-size: 2.5vmin;
+    margin-bottom: 2vmin;
+}
+.details .text .stock span{
+    font-weight: 500;
+}
+.details .text .price{
+    color: black;
+    font-size: 3.5vmin;
+    font-weight: 600;
+}
+.new-price{
+    font-size: 3.5vmin;
+    color: rgb(0, 99, 0);
+    margin-left: 1vmin;
+    font-weight: 600;
+}
+.old-price{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 2.5vmin;
+}
+.details .text .description{
+    color: rgb(39, 61, 39);
+    font-size: 2.7vmin;
+    margin-bottom: 3vmin;
+}
+.details .text button{
+    font-size: 2.5vmin;
+    color: white;
+    /* background-color: rgb(26, 65, 26); */
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.654)) !important;
+    border: 0.2vmin solid rgb(26, 65, 26);
+    padding: 1vmin 5vmin;
+    margin-bottom: 3vmin;
+    transition: 1s;
+}
+.details .text button:hover{
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0),rgba(26, 65, 26, 0)) !important;
+    color: rgb(26, 65, 26);
+    /* background-color: white; */
+}
+.fav{
+    margin-left: 2vmin;
+}
+.details .text .category{
+    font-size: 2.5vmin;
+}
+.green{
+    color: rgb(39, 75, 39);
+}
+.red{
+    /* color: rgb(194, 0, 0); */
+    color: rgb(156, 0, 0) !important;
+}
+.sale{
+    position: absolute;
+    left: 0vmin;
+    top:0;
+    background-color: rgb(113, 0, 0);
+    /* background-color: transparent; */
+    border: 0.2vmin solid rgb(113, 0, 0);
+    /* color: rgb(113, 0, 0); */
+    color: white;
+    font-size: 2.3vmin;
+    padding: 1vmin 2vmin;
+}
+.image{
+    position: relative;
+    mix-blend-mode: multiply;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.loader{
+    width: 15vmin !important;
+    height: 15vmin !important;
+    color: rgb(26, 65, 26) !important;
+}

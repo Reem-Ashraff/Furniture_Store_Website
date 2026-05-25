@@ -1,0 +1,34 @@
+.account-details{
+    margin-bottom: 5vmin;
+}
+.account-details .details-edit{
+    font-size: 2.5vmin;
+    color: white;
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.654));
+    border: 0.25vmin solid rgba(26, 65, 26, 0.623);
+    border-radius: 0.3vmin;
+    padding: 0.8vmin 4vmin;
+    transition: 0.5s;
+}
+.account-details .details-edit:hover{
+    color: rgba(26, 65, 26, 0.816);
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0),rgba(26, 65, 26, 0));
+}
+.details-form .submit {
+    font-size: 2.6vmin;
+    padding: 1vmin 2.3vmin;
+    /* background-color: rgb(26, 65, 26); */
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0.816), rgba(26, 65, 26, 0.654));
+    border-radius: 0.5vmin;
+    color: white;
+    border: 0.3vmin solid rgba(26, 65, 26, 0.608);
+    margin-top: 1vmin;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.details-form .submit:hover {
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0), rgba(26, 65, 26, 0));
+    background-color: transparent;
+    color: rgba(26, 65, 26, 0.816);
+}

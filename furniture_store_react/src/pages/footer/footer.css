@@ -1,0 +1,14 @@
+.footer{
+    /* background-color: rgba(26, 65, 26, 0.851); */
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.654)) !important;
+    position: relative;
+    bottom: 0vmin;
+}
+footer li{
+    color: white;
+    font-size: 2.6vmin;
+}
+footer p{
+    color: white;
+    font-size: 2.5vmin;
+}

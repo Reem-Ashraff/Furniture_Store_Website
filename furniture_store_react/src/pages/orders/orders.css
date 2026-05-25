@@ -1,0 +1,39 @@
+.orders-main{
+    padding: 20vmin 11vmin 10vmin;
+}
+.orders-main h2{
+    font-size: 7vmin;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-bottom: 5vmin;
+}
+
+table{
+    width: 100%;
+    border: 0.25vmin solid rgba(26, 65, 26, 0.521);
+}
+.order-table td{
+    /* border: 0.2vmin solid black; */
+    font-size: 2.5vmin;
+    padding: 2.5vmin 2.5vmin 2.5vmin 0vmin !important;
+}
+table .order-code{
+    padding-left: 4vmin !important;
+}
+table .code-td{
+    color: rgb(26, 65, 26) !important;
+    font-weight: 500;
+    font-size: 2.9vmin;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.2vmin;
+}
+table tr th{
+    font-size: 2.7vmin;
+    padding: 1.5vmin 0vmin;
+    color: rgba(26, 65, 26, 0.904);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table tr{
+    border-bottom: 0.2vmin solid rgba(26, 65, 26, 0.521);
+}

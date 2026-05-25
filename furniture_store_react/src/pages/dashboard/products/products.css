@@ -1,0 +1,342 @@
+.home-main h3 {
+    font-size: 4vmin;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin: 0vmin;
+}
+
+.add-product {
+    padding: 5vmin 0vmin 3vmin;
+}
+
+table {
+    width: 100%;
+    border: 0.25vmin solid rgba(26, 65, 26, 0.521);
+}
+
+table td {
+    /* border: 0.2vmin solid black; */
+    font-size: 2.5vmin;
+}
+
+table th {
+    font-size: 2.7vmin;
+    padding: 1.5vmin 0vmin;
+    /* color: rgba(26, 65, 26, 0.904); */
+    color: white !important;
+}
+
+table tr {
+    border-bottom: 0.2vmin solid rgba(26, 65, 26, 0.521);
+}
+
+table .product img {
+    width: 30%;
+    mix-blend-mode: multiply;
+}
+
+table .product div {
+    padding-left: 2vmin;
+}
+
+table .product {
+    padding-right: 1vmin;
+}
+
+table button {
+    color: white;
+    background-color: rgba(26, 65, 26, 0.92);
+    border: 0.1vmin solid transparent;
+    font-size: 2.vmin;
+    padding: 0.7vmin 2.5vmin;
+    transition: 0.5s;
+}
+
+.table button:hover {
+    color: rgb(26, 65, 26);
+    border-color: rgb(26, 65, 26);
+    background-color: white;
+}
+
+table thead {
+    /* background-color: rgba(26, 65, 26, 0.725); */
+    /* background-color: rgba(26, 65, 26, 0.649); */
+    /* background-color: rgba(26, 65, 26, 0.767); */
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0.816), rgba(26, 65, 26, 0.654));
+    color: white;
+}
+
+.delete {
+    font-size: 2.5vmin;
+    padding: 1vmin 1vmin;
+    color: rgb(26, 65, 26);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.delete:hover {
+    background-color: rgb(26, 65, 26);
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.del {
+    padding: 0vmin 2vmin;
+}
+
+#image {
+    display: none;
+}
+
+.dash-img-div {
+    padding-right: 4vmin;
+}
+
+.upload-area {
+    width: 100%;
+    height: 60vh;
+    border: 0.2vmin dashed rgb(26, 65, 26);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    /* color: #555; */
+    transition: 0.3s ease;
+    padding: 2vmin 3vmin;
+    position: relative;
+}
+
+.upload-area:hover {
+    border-color: rgb(26, 65, 26);
+    background-color: rgb(225, 245, 225);
+}
+
+.cloud-icon {
+    /* font-size: 30px; */
+    margin-bottom: 3vmin;
+}
+
+.upload-area span {
+    color: rgb(26, 65, 26);
+    font-weight: 500;
+}
+
+.upload-area p {
+    font-size: 2.7vmin;
+}
+
+.preview-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.add-form {
+    /* border: 0.2vmin solid transparent; */
+    box-shadow: 0vmin 0vmin 0.5vmin rgb(26, 65, 26);
+    width: 100%;
+    padding: 5vmin 5vmin 5vmin;
+    border-radius: 0.5vmin;
+}
+
+.drop-icon {
+    font-size: 10vmin;
+    color: rgb(26, 65, 26);
+}
+
+.image-content {
+    background-color: rgba(0, 0, 0, 0.058);
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    top: 0vmin;
+    left: 0vmin;
+}
+
+.details-main {
+    padding-top: 15vmin;
+    padding-bottom: 10vmin;
+}
+
+.details {
+    margin: 10vmin 11vmin 5vmin;
+    /* box-shadow: 0vmin 0vmin 0.7vmin rgb(26, 65, 26); */
+}
+
+.details .text {
+    padding: 4vmin 3vmin 4vmin 5vmin;
+    border-left: 0.1vmin solid rgb(26, 65, 26);
+}
+
+/* .details .text h2{
+    font-size: 8vmin;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(26, 65, 26);
+    margin-bottom: 4vmin;
+    line-height: 9vmin;
+} */
+.details .text .stock {
+    color: black;
+    font-size: 2.5vmin;
+    margin-bottom: 2vmin;
+}
+
+.details .text .stock span {
+    font-weight: 500;
+}
+
+.details .text .price {
+    color: black;
+    font-size: 3.5vmin;
+    font-weight: 600;
+}
+
+.new-price {
+    font-size: 3.5vmin;
+    color: rgb(0, 99, 0);
+    margin-left: 1vmin;
+    font-weight: 600;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 2.5vmin;
+}
+
+.details .text .description {
+    color: rgb(39, 61, 39);
+    font-size: 2.7vmin;
+    margin-bottom: 3vmin;
+}
+
+/* .details .text button{
+    font-size: 2.5vmin;
+    color: white;
+    background-color: rgb(26, 65, 26);
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.654));
+    border: 0.2vmin solid rgb(26, 65, 26);
+    padding: 1vmin 5vmin;
+    margin-bottom: 3vmin;
+    transition: 1s;
+}
+.details .text button:hover{
+    color: rgb(26, 65, 26);
+    background-color: white;
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0),rgba(26, 65, 26, 0));
+} */
+.fav {
+    margin-left: 2vmin;
+}
+
+.details .text .category {
+    font-size: 2.5vmin;
+}
+
+.green {
+    color: rgb(23, 92, 23);
+}
+
+.red {
+    color: rgb(194, 0, 0);
+}
+
+.yellow {
+    color: rgb(204, 204, 13);
+}
+
+.orange {
+    color: rgb(200, 110, 8);
+}
+
+/* .sale{
+    position: absolute;
+    left: 0vmin;
+    top:0;
+    background-color: rgb(26, 65, 26);
+    color: white;
+    font-size: 2.3vmin;
+    padding: 1vmin 2vmin;
+} */
+.image {
+    position: relative;
+}
+
+.product-img {
+    mix-blend-mode: multiply;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loader {
+    width: 15vmin !important;
+    height: 15vmin !important;
+    color: rgb(26, 65, 26) !important;
+}
+
+.dash-submit {
+    font-size: 2.6vmin;
+    padding: 1vmin 2.3vmin;
+    color: white;
+    border: 0.2vmin solid transparent;
+    margin-top: 2vmin;
+    border-radius: 0.5vmin;
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0.816), rgba(26, 65, 26, 0.654)) !important;
+}
+
+@media (max-width: 768px) {
+    .upload-area {
+        height: 30vh;
+    }
+
+    .dash-img-div {
+        padding-right: 0vmin;
+    }
+
+    .image-content {
+        height: 30vh !important;
+    }
+
+    table .product img {
+        display: none;
+    }
+
+    table .product div {
+        padding-left: 0vmin !important;
+    }
+
+    .del {
+        padding: 0vmin !important;
+    }
+
+    table td {
+        font-size: 2vmin !important;
+    }
+
+    table th {
+        font-size: 2.4vmin !important;
+    }
+
+    .details {
+        margin: 3vmin 0vmin 3vmin;
+    }
+}

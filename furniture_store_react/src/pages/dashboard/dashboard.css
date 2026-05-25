@@ -1,0 +1,220 @@
+.dash-header{
+    padding: 3vmin 3vmin;
+    /* border-bottom: 0.2vmin solid black; */
+    /* background-color: rgba(26, 65, 26, 0.767); */
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.654));
+    position: sticky;
+    top: 0vmin;
+    right: 0vmin;
+    width: 100%;
+}
+.dash-header h2{
+    font-size: 3.5vmin;
+    margin-left: 1vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    letter-spacing: 0.3vmin;
+}
+.dash-header .home-logo{
+    font-size: 4.3vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.dash-header .user-logo{
+    font-size: 2.8vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 0vmin 1vmin 0vmin 0vmin;
+}
+.dash-header .admin-name{
+    color: white;
+    font-size: 2.8vmin;
+    margin: 0vmin;
+}
+aside{
+    position:sticky;
+    top: 0vmin;
+    height: 100vh;
+    /* background-color: rgb(151, 188, 151); */
+    box-shadow: 0vmin 0vmin 1vmin rgb(26, 65, 26);
+    background-image: linear-gradient(rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.654));
+    overflow-y: auto;
+    scrollbar-width:auto;
+    scroll-behavior: smooth;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* padding: 0vmin !important; */
+
+}
+aside::-webkit-scrollbar {
+  width: 1.2vmin;
+}
+aside::-webkit-scrollbar-thumb {
+  background: rgba(26, 65, 26, 0.832);
+  border-radius: 5vmin;
+}
+aside .dash-title{
+    padding: 2vmin 3vmin;
+    border-bottom: 0.2vmin solid black;
+    margin-bottom: 2vmin;
+}
+aside h2{
+    font-size: 3.5vmin;
+    margin-left: 1vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(26, 65, 26);
+}
+aside .home-logo{
+    font-size: 3.5vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(26, 65, 26);
+}
+aside .dash-nav{
+    padding: 0vmin 3vmin 0vmin 0vmin;
+}
+aside .main-list{
+    font-size: 2.6vmin;
+    margin-top: 2vmin;
+    cursor: pointer;
+    padding: 1vmin 0vmin 1vmin 3vmin;
+    /* border-left: 0.7vmin solid rgb(26, 65, 26); */
+    font-weight: 500;
+    color: white !important;
+    /* color: black;
+    padding-left: 2vmin !important; */
+}
+aside .main-list .main-name{
+    padding-left: 2vmin;
+    color: white;
+}
+aside .icons{
+    font-size: 2vmin;
+    cursor: pointer;
+}
+aside .sub-list{
+    list-style:none;
+    font-size: 2.2vmin ;
+    padding: 0vmin 0vmin 0vmin 8.3vmin;
+    margin-top: 0vmin;
+}
+aside .sub-list li{
+    font-size: 2.2vmin ;
+    margin-top: 1.5vmin;
+}
+.main-link{
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+    padding-left: 2vmin !important;
+}
+.links{
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+}
+/* main{
+    height: 300vh;
+} */
+
+/* .chart {
+  width: 100%;
+  margin-top: 5px;
+} */
+
+.dash-card{
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.654));
+    color: white;
+    border-radius: 0.7vmin;
+    padding: 3.5vmin 4.5vmin;
+    width: 24%;
+}
+.dash-card h5{
+    margin: 0vmin;
+    font-size: 5vmin;
+    margin-bottom: 1.7vmin;
+}
+.dash-card p{
+    margin: 0vmin;
+    font-size: 3vmin;
+    font-weight: 400;
+}
+.dash-icon{
+    font-size: 5vmin;
+}
+.section-margin{
+    margin-top: 4vmin;
+}
+.dash-section h3{
+    font-size: 3.4vmin !important;
+    margin-bottom: 3vmin !important;
+}
+.product-table{
+    width: 100%;
+    border: 0.25vmin solid rgba(26, 65, 26, 0.521);
+    /* border-radius: 10vmin !important; */
+}
+.product-table td{
+    /* border: 0.2vmin solid black; */
+    font-size: 2.5vmin;
+}
+.product-table th{
+    font-size: 2.7vmin;
+    padding: 1.5vmin 0vmin;
+    /* color: rgba(26, 65, 26, 0.904); */
+    color: white !important;
+}
+.product-table tr{
+    border-bottom: 0.2vmin solid rgba(26, 65, 26, 0.521);
+}
+.product-table .product img{
+    width: 20%;
+    mix-blend-mode: multiply;
+}
+.product-table .product div{
+    padding-left: 2vmin;
+}
+.product-table .product{
+    padding-right: 1vmin;
+}
+.product-table button{
+    color: white;
+    background-color: rgba(26, 65, 26, 0.92);
+    border: 0.1vmin solid transparent;
+    font-size: 2.vmin;
+    padding: 0.7vmin 2.5vmin;
+    transition: 0.5s;
+}
+.product-table .table button:hover{
+    color: rgb(26, 65, 26);
+    border-color: rgb(26, 65, 26);
+    background-color: white;
+}
+.product-table thead{
+    /* background-color: rgba(26, 65, 26, 0.725); */
+    /* background-color: rgba(26, 65, 26, 0.649); */
+    /* background-color: rgba(26, 65, 26, 0.767); */
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.654));
+    color: white;
+}
+
+
+
+.dash-footer{
+   /* background-color: rgba(26, 65, 26, 0.851); */
+    background-image: linear-gradient(to right,rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.654)) !important;
+    position: relative;
+    bottom: 0vmin;
+}
+footer li{
+    color: white;
+    font-size: 2.6vmin;
+}
+footer p{
+    color: white;
+    font-size: 2.5vmin;
+}
+
+@media (max-width: 768px) {
+  .dash-card {
+    width: 100% !important;
+  }
+}

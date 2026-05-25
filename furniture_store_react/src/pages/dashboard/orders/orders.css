@@ -1,0 +1,207 @@
+.order-info h4 {
+  font-size: 3.1vmin;
+  font-weight: 700;
+  margin-bottom: 3vmin;
+  color: black;
+}
+
+.customer {
+  border: 0.2vmin solid gray;
+  border-radius: 0.5vmin;
+  padding: 3vmin 4vmin;
+  margin-top: 4vmin;
+}
+
+.customer h5{
+  font-size: 2.7vmin;
+  color: black;
+}
+
+.customer p{
+  font-size: 2.5vmin;
+}
+
+.summary {
+  border: 0.2vmin solid gray;
+  border-radius: 0.5vmin;
+  padding: 3vmin 4vmin;
+  margin-top: 3vmin;
+}
+
+.shipping {
+  border: 0.2vmin solid gray;
+  border-radius: 0.5vmin;
+  padding: 3vmin 4vmin;
+  margin-top: 3vmin;
+}
+
+table .item {
+  padding-left: 4vmin;
+}
+
+/* .summary table thead {
+  background-color: transparent !important;
+  color: black !important;
+} */
+
+.summary table {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+table .product img {
+  width: 30%;
+}
+
+table .product div {
+  padding-left: 2vmin;
+}
+
+table .product {
+  padding-right: 1vmin;
+}
+
+.order-total {
+  margin-top: 3vmin;
+  padding: 0vmin 4vmin;
+}
+
+.order-total h6 {
+  font-size: 2.7vmin;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0vmin;
+  margin-bottom: 0;
+  margin-right: 25vmin;
+}
+
+.order-total p {
+  font-size: 2.7vmin;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0vmin;
+  margin-bottom: 0;
+}
+
+.shipping .progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  /* margin: 3vmin auto; */
+  /* position: relative; */
+}
+
+.shipping .progress-step {
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+}
+
+.shipping .circle {
+  width: 4.5vmin;
+  height: 4.5vmin;
+  border-radius: 50%;
+  background-color: #ccc;
+  color: white;
+  font-size: 2.7vmin;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shipping .circle.active {
+  /* background-color: rgb(26, 65, 26); */
+  background-image: linear-gradient(to right,rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.728));
+}
+
+.shipping .line {
+  height: 0.35vmin;
+  width: 8vmin;
+  background-color: #ccc;
+  margin: 0 1vmin;
+}
+
+.shipping .line.active {
+  background-color: rgba(26, 65, 26, 0.831);
+}
+
+.shipping .label {
+  font-size: 2.7vmin;
+  color: #333;
+  text-align: center;
+}
+
+.shipping .bold {
+  font-weight: 600;
+}
+
+.change-status {
+  /* background-color: rgb(26, 65, 26); */
+  background-image: linear-gradient(to right,rgba(26, 65, 26, 0.816),rgba(26, 65, 26, 0.728));
+  color: white;
+  border: 0.2vmin solid transparent;
+  font-size: 2.5vmin;
+  padding: 1vmin 4vmin;
+  margin-top: 3vmin;
+  transition: 0.5s;
+}
+
+.change-status:hover {
+  color: rgb(26, 65, 26);
+  background-image: linear-gradient(to right,rgba(26, 65, 26, 0),rgba(26, 65, 26, 0));
+  /* background-color: white; */
+  border-color: rgba(26, 65, 26, 0.828);
+}
+
+.order-tracking {
+  border: 0.2vmin solid gray;
+  border-radius: 0.5vmin;
+  padding: 3vmin 4vmin;
+  margin-top: 3vmin;
+}
+
+.display{
+  display: none;
+}
+.driver-info{
+  margin-bottom: 2vmin;
+}
+.driver-info h6{
+  font-size: 2.6vmin;
+  font-weight: 600;
+  color: black;
+  margin-right: 1vmin;
+  margin-bottom: 0vmin;
+}
+.driver-info p{
+  font-size: 2.6vmin;
+  color: black;
+  margin-bottom: 0vmin;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+    .shipping .label {
+        font-size: 2.4vmin !important;
+    }
+
+    .shipping .line {
+        width: 2vmin !important;
+    }
+
+    .shipping .circle {
+        width: 4vmin !important;
+        height: 4vmin !important;
+        font-size: 2vmin !important;
+    }
+}

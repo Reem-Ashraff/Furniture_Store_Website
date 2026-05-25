@@ -1,0 +1,42 @@
+.total-orders{
+    font-size: 2.7vmin;
+    margin-bottom: 3vmin;
+}
+.recent-order{
+    margin-bottom: 3vmin;
+}
+.recent-order h4{
+    font-size: 3.2vmin;
+    margin-bottom: 0vmin;
+    color: black;
+}
+.recent-order .view{
+    text-decoration: none;
+    font-size: 2.5vmin;
+    border: 0.2vmin solid rgba(26, 65, 26, 0.745);
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0.816), rgba(26, 65, 26, 0.654));
+    color: white;  
+    border-radius: 0.2vmin;
+    padding: 0.5vmin 2vmin;
+}
+.order-link{
+    text-decoration: none;
+    color: black;
+}
+.order-div{
+    border: 0.2vmin solid rgba(26, 65, 26, 0.745);
+    border-radius: 0.5vmin;
+    padding: 2vmin 3vmin;
+}
+.order-subdiv .order-header{
+    font-weight: 500;
+    font-size: 2.5vmin;
+    margin-bottom: 1vmin;
+}
+.order-subdiv .order-info{
+    font-size: 2.5vmin;
+}
+.order-no-text{
+    font-size: 2.4vmin;
+    text-align: center;
+}

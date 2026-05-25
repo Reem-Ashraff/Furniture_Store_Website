@@ -1,0 +1,16 @@
+.ratio-item {
+  margin-right: 4vmin;
+}
+
+.user-search .search input {
+  width: 50vmin !important;
+}
+
+@media (max-width: 768px) {
+  .user-search .search input {
+    width: 40vmin !important;
+  }
+  .users td{
+    font-size: 1.25vmin !important;
+  }
+}

@@ -1,0 +1,47 @@
+.profile-aside {
+    background-color: transparent !important;
+    padding-right: 10vmin;
+}
+
+.aside-link {
+    text-decoration: none;
+    font-size: 2.7vmin;
+    border: 0.2vmin solid rgba(26, 65, 26, 0.745);
+    color: rgba(26, 65, 26, 0.745);
+    text-align: center;
+    margin-bottom: 2vmin;
+    padding: 1.5vmin 2vmin;
+    border-radius: 0.5vmin;
+    display: block;
+    transition: 0.5s;
+}
+
+.aside-link:hover {
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0.816), rgba(26, 65, 26, 0.654));
+    color: white;
+}
+
+.active-link {
+    font-size: 2.7vmin;
+    border: 0.2vmin solid rgba(26, 65, 26, 0.745);
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0.816), rgba(26, 65, 26, 0.654));
+    color: white;
+    text-align: center;
+    margin-bottom: 2vmin;
+    padding: 1.5vmin 2vmin;
+    border-radius: 0.5vmin;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s;
+}
+
+.active-link:hover {
+    background-image: linear-gradient(to right, rgba(26, 65, 26, 0), rgba(26, 65, 26, 0));
+    color: rgba(26, 65, 26, 0.745);
+}
+
+@media (max-width: 768px) {
+    .profile-aside {
+        padding-right: 0vmin;
+    }
+}
